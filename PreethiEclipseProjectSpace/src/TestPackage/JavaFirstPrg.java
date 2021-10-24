@@ -26,6 +26,9 @@ System.out.println(s3);
 System.out.println(s4);    
 
 
+System.out.println(s2);    
+System.out.println(s3);    
+System.out.println(s4);    
 
 
 
