@@ -1,5 +1,6 @@
 package test;
 
+
 public class TestStringPrg {
 
 
@@ -35,3 +36,5 @@ System.out.println(s2.replace("java", "J2SE"));
 	}
 
 }
+
+
