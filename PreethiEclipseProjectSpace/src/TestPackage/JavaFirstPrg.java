@@ -17,6 +17,21 @@ System.out.println(ch);
 System.out.println(s);
 System.out.println(s1);
 
+String s2="java";//creating string by Java string literal    
+char ch1[]={'s','t','r','i','n','g','s'};    
+String s3=new String(ch1);//converting char array to string    
+String s4=new String("example");//creating Java string by new keyword    
+System.out.println(s2);    
+System.out.println(s3);    
+System.out.println(s4);    
+
+
+System.out.println(s2);    
+System.out.println(s3);    
+System.out.println(s4);    
+
+
+
 	}
 
 }
