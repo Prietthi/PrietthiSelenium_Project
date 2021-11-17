@@ -1,12 +1,18 @@
 package test;
 
-
 public class TestStringPrg {
 
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-System.out.println("Welcome Java");
+	public static void main(String[] args) 
+	{
+				String x="    He  llo  world   ";
+		System.out.println(x.trim());
+		String y="";
+		System.out.println(y.isEmpty());
+		String m="abc";
+		System.out.println(m.concat(x));
+		System.out.println(x.replace("world", "India"));
+		System.out.println("Welcome Java");
 System.out.println("Hello Java");	
 System.out.println("Programming in Java");	
 
@@ -33,8 +39,11 @@ System.out.println(s1.toUpperCase());
 System.out.println(s1.toLowerCase());
 System.out.println(s2.replace("java", "J2SE"));
 
-	}
-
+int[] marks= {40,10,50,70,60};
+String[] students= {"sandeep","arun","Sheshu","sheenu","ravi", "swetha"};
+System.out.println(marks.length);
+System.out.println(students.length);
+		}
 }
 
 
